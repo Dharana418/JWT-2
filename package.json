@@ -1,0 +1,19 @@
+{
+  "name": "express-jwt-key-2",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000J\u0000W\u0000T\u0000-\u00002\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dharana418/JWT-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dharana418/JWT-2/issues"
+  },
+  "homepage": "https://github.com/Dharana418/JWT-2#readme"
+}
