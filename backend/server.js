@@ -13,7 +13,6 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.use("/api/users", userRoutes);
-
 mongoose
   .connect(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {

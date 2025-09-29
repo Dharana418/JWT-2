@@ -14,3 +14,16 @@ export const createUser = async (req, res) => {
     res.status(500).json({ error: "❌ Error signing up" });
   }
 };
+
+export const getRegisteredUsers = async (req, res) => {
+  try {
+    const users = await User.find({});
+    res.status(200).json(users);
+  } catch (err) {
+        console.error("Error fetching users:", err.message);
+        res.status(500).json({ error: "❌ Error fetching users" });
+    }
+};
+
+
+
