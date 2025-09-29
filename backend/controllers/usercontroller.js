@@ -2,7 +2,6 @@ import bcrypt from "bcryptjs";
 import User from "../models/userSchema.js";
 import jwt from "jsonwebtoken";
 
-
 const secret_key = "your_jwt_secret";
 
 export const createUser = async (req, res) => {
